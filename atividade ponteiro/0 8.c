@@ -17,18 +17,19 @@ void zera(int *v, int n){
 int main(){
     int v[4], i;
     for(i = 0; i < 4; i++){
-        printf("Digite um numero: ");
+        printf("Digite um numero:\n");
         scanf("%d", &v[i]);
+        printf("\n");
     }
+    
     printf("Antes: %d ", v[0]);
     for (i = 1; i < 4; i++){
     printf("%d ", v[i]);
 }
     zera(v, 4);
-    printf("Depois: %d ", v[0]);
+    printf("\nDepois: %d ", v[0]);
     for (i = 1; i < 4; i++){
+
         printf("%d ", v[i]);
     }
 }
-
-
